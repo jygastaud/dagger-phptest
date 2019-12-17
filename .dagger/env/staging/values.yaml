@@ -1,0 +1,30 @@
+plan:
+    package: ./plans/staging
+name: staging
+inputs:
+    app.source:
+        dir:
+            path: ./www
+    dockerSocket:
+        socket:
+            unix: /var/run/docker.sock
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age:
+        - recipient: age1qwdzwfz9jh2hagcwm24r8p7c9s2pmly83c73etrxduxmd7jere6qyhnjxr
+          enc: |
+            -----BEGIN AGE ENCRYPTED FILE-----
+            YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBoWCs4YTZORFFxZzY3RHhr
+            eThMd3A1VzFSaW12Z1N4cUJnemJQYkRkdGtrCjUwZEZmSit4UnVNUDRRNWlnMEZm
+            clFleHBRdEhuY1lvZFdtSm1xRVVxZDgKLS0tIFpweTdOMEZ3NnZHMFlpcTh3bWIw
+            Z0VnY0FVbi9Kd2x2ZEd6dmpkRldtNEkKrY1kpVaX4hlxwQOdilo7q2ebyTaAzDOh
+            JAdj9U72GUj6Q4IBL3xWMfF8NYt3VXU1Vbs2c15AJqyqMjaraIGBFg==
+            -----END AGE ENCRYPTED FILE-----
+    lastmodified: "2021-12-13T17:22:46Z"
+    mac: ENC[AES256_GCM,data:J6HnvL58NpKsRur01oFFDjaTht1bVfghQe6jiVa7ccFsIPpPrEtBi0ATx4Fl8DLgQr0fbXzMDHFgMZImF0GZ3lQR1lA3KDrxehpTBFp2F3+bROMqIlO86pw76KkHHfPVYgBWWZEefHNLImSdZbudqP02YL6X1Rcrf+rlJhWNWgQ=,iv:HTn3um2akzPpRe9sgaSg4jZ/SnQVHRZejwzMcbEErfE=,tag:nUVFmL62quSuU8uDjIJRvg==,type:str]
+    pgp: []
+    encrypted_suffix: secret
+    version: 3.7.1
