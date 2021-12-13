@@ -1,0 +1,1020 @@
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2mno buildkit daemon detected[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2mpulling buildkit image[0m    [1mversion=v0.9.3[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2mspawning buildkit job[0m    [1mattrs=null localdirs={
+    "/home/jyg/workspace/divers/docker-php/www": "/home/jyg/workspace/divers/docker-php/www"
+}[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mwait | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2mexecuting operation[0m    [1mdo=load pipeline=wait[0m[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=wait.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mapp.source | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2mexecuting operation[0m    [1mdo=local pipeline=app.source[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mregistry.run | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=load pipeline=registry.run[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=registry.run.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 Local /home/jyg/workspace/divers/docker-php/www[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 sha256:2e262e2e1c74ad11e40e4c8896a0bda06031ce7e40e53975c7bfa4963341d66a[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 transferring /home/jyg/workspace/divers/docker-php/www: 1.30kB done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 Local /home/jyg/workspace/divers/docker-php/www [copy][0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 sha256:94315873d154092e486f29cb781336d5f9d8b6e8a68d7cf069b0638cda2e1ae1[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#1 load metadata for docker.io/library/alpine:3.13.5@sha256:69e70a79f2d41ab5d637de98c1e0b055206ba40a8145e7bddb55ccc04e13cf8f[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#1 sha256:703a8efa84578e0eeea62f1e909b202dbdba4a14cbb81bc8ae20e916388aaa88[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mapp.source | [0mcompleted    [1mduration=100ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2mdependency detected[0m    [1mdependency=app.source[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2mexecuting operation[0m    [1mdo=load pipeline=app.ctr[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mapp.ctr.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=app.ctr.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#1 DONE 1.5s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#4 DONE 1.4s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#5 FetchContainer index.docker.io/alpine:3.13.5@sha256:69e70a79f2d41ab5d637de98c1e0b055206ba40a8145e7bddb55ccc04e13cf8f[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#5 sha256:beeba2f5e63b87eabaf59645c53e1b9c34182ed007e08b38a790b1ad0502c307[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=registry.run.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#5 resolve docker.io/library/alpine:3.13.5@sha256:69e70a79f2d41ab5d637de98c1e0b055206ba40a8145e7bddb55ccc04e13cf8f 0.0s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=wait.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#5 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 FetchContainer docker.io/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 sha256:fbda0b9f0d6870b3bb457ed91928b2877f2bb4af76bc1f668ecdb5b489db90ef[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 resolve docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 resolve docker.io/library/composer:2 0.2s done[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mapp.ctr.#up[0].from | [0mcompleted    [1mduration=1.7s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=app.ctr[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2mexecuting operation[0m    [1mdo=local pipeline=app.ctr.#up[1].mount."/app".from[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 Exec ["/bin/sh", "-c", "composer install --ignore-platform-reqs --no-scripts"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 sha256:1dc96365b094ee0b80c5c8160ced5dd916c00b2c8b7cf29d59bf58f46a5c62cf[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.469 Installing dependencies from lock file (including require-dev)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.471 Verifying lock file contents can be installed on current platform.[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.487 Package operations: 28 installs, 0 updates, 0 removals[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.488   - Downloading symfony/flex (v1.5.3)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.489   - Downloading psr/cache (1.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading symfony/cache-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading psr/container (1.0.0)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/service-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-php73 (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-mbstring (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/console (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/dotenv (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading psr/event-dispatcher (1.0.0)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading symfony/event-dispatcher-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/routing (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/polyfill-intl-idn (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/mime (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/http-foundation (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/event-dispatcher (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/var-dumper (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading psr/log (1.1.2)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/error-handler (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/http-kernel (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/finder (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/filesystem (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/dependency-injection (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/config (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/var-exporter (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/cache (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/framework-bundle (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/yaml (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.525   0/28 [>---------------------------]   0%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.141   5/28 [=====>----------------------]  17%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.243   9/28 [=========>------------------]  32%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.362  12/28 [============>---------------]  42%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.464  14/28 [==============>-------------]  50%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.569  18/28 [==================>---------]  64%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.682  19/28 [===================>--------]  67%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.783  21/28 [=====================>------]  75%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.886  25/28 [=========================>--]  89%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.995  27/28 [===========================>]  96%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.073  28/28 [============================] 100%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.075   - Installing symfony/flex (v1.5.3): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.147 The "symfony/flex" plugin was skipped because it requires a Plugin API version ("^1.0") that does not match your Composer installation ("2.1.0"). You may need to run composer update with the "--no-plugins" option.[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.152   - Installing psr/cache (1.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.156   - Installing symfony/cache-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.162   - Installing psr/container (1.0.0): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.164   - Installing symfony/service-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.167   - Installing symfony/polyfill-php73 (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.172   - Installing symfony/polyfill-mbstring (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.180   - Installing symfony/console (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.183   - Installing symfony/dotenv (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.186   - Installing psr/event-dispatcher (1.0.0): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.203   - Installing symfony/event-dispatcher-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.211   - Installing symfony/routing (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.212   - Installing symfony/polyfill-intl-idn (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.213   - Installing symfony/mime (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.216   - Installing symfony/http-foundation (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.217   - Installing symfony/event-dispatcher (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.220   - Installing symfony/var-dumper (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing psr/log (1.1.2): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing symfony/error-handler (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.222   - Installing symfony/http-kernel (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/finder (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/filesystem (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/dependency-injection (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/config (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.225   - Installing symfony/var-exporter (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.226   - Installing symfony/cache (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/framework-bundle (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/yaml (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.249   0/27 [>---------------------------]   0%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=registry.run.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=wait.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#9 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#8 Exec ["apk", "add", "-U", "--no-cache", "bash"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#8 sha256:a2e498437edafa1dba5e24e7230e90898262cec10a8907fd41268a901848cdf9[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 0.171 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/main/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 0.664 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 1.640 (1/4) Installing ncurses-terminfo-base (6.2_p20210109-r0)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 1.690 (2/4) Installing ncurses-libs (6.2_p20210109-r0)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 2.001 (3/4) Installing readline (8.1.0-r0)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 2.078 (4/4) Installing bash (5.1.0-r0)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 2.336 Executing bash-5.1.0-r0.post-install[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 2.359 Executing busybox-1.32.1-r6.trigger[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#8 2.379 OK: 8 MiB in 18 packages[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#8 DONE 2.6s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#7 Exec ["apk", "add", "-U", "--no-cache", "bash=~5.1"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#7 sha256:dc420cc29881115b297f7149460768c5735a765247013c58712dc0131368dfc2[0m[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 0.172 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/main/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 0.722 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 1.698 (1/4) Installing ncurses-terminfo-base (6.2_p20210109-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 1.764 (2/4) Installing ncurses-libs (6.2_p20210109-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 2.026 (3/4) Installing readline (8.1.0-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 2.117 (4/4) Installing bash (5.1.0-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 2.358 Executing bash-5.1.0-r0.post-install[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 2.368 Executing busybox-1.32.1-r6.trigger[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#7 2.381 OK: 8 MiB in 18 packages[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#7 DONE 2.6s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 Exec ["/bin/sh", "-c", "composer install --ignore-platform-reqs --no-scripts"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 sha256:1dc96365b094ee0b80c5c8160ced5dd916c00b2c8b7cf29d59bf58f46a5c62cf[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.446  17/27 [=================>----------]  62%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.555  23/27 [=======================>----]  85%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.572  27/27 [============================] 100%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.721 Generating autoload files[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0mcompleted    [1mduration=4.6s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mdependency detected[0m    [1mdependency=app.ctr[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.output | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=load pipeline=app.output[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mapp.output.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=load pipeline=app.output.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mapp.output.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=app.output.#up[0].from.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 DONE 2.9s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mapp.output.#up[0].from.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mapp.output.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mapp.output.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mapp.output.#up[0].from.#up[0].from | [0mcompleted    [1mduration=300ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=app.output.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mapp.output.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=local pipeline=app.output.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mapp.output.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mapp.output.#up[0].from | [0mcompleted    [1mduration=300ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=app.output[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mapp.output.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.3s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 Exec ["apk", "add", "-U", "--no-cache", "curl"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 sha256:52915ebf33d31ea08c996e9c87ce963e0328af56e71957925842c7710f52ad86[0m[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 0.199 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/main/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 0.589 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#11 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 Subdir /app[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 sha256:a5baffea27f1ced0e556bbc1136fdda6f20edce1581545021be75c54fe17c601[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 DONE 0.0s[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.output | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mdependency detected[0m    [1mdependency=app.output[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mimage | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=load pipeline=image[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=image.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#13 load metadata for docker.io/library/php:8.0-apache[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#13 sha256:ab7adc4d2fc7c97263198b92632b3a356a3c9d8045d5de87d36307f70bea7db1[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#13 DONE 0.7s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 Exec ["apk", "add", "-U", "--no-cache", "curl"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 sha256:52915ebf33d31ea08c996e9c87ce963e0328af56e71957925842c7710f52ad86[0m[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.437 (1/5) Installing ca-certificates (20191127-r5)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.535 (2/5) Installing brotli-libs (1.0.9-r3)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.695 (3/5) Installing nghttp2-libs (1.42.0-r1)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.759 (4/5) Installing libcurl (7.79.1-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.889 (5/5) Installing curl (7.79.1-r0)[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.982 Executing busybox-1.32.1-r6.trigger[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 1.989 Executing ca-certificates-20191127-r5.trigger[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[0].from | [0mcompleted    [1mduration=1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=image[0m[0m
+[90m10:45PM[0m [32mINF[0m [92mimage.#up[1].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=load pipeline=image.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=load pipeline=image.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=image.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#11 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 FetchContainer php:8.0-apache[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 sha256:e643a03698f4348650505ab8461078e599eed47f700a29f0dc0768942b784979[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 resolve docker.io/library/php:8.0-apache 0.2s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 Exec ["apk", "add", "-U", "--no-cache", "curl"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 sha256:52915ebf33d31ea08c996e9c87ce963e0328af56e71957925842c7710f52ad86[0m[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0m#11 2.071 OK: 10 MiB in 23 packages[0m
+[90m10:45PM[0m [32mINF[0m [93mwait.#up[0].from | [0mcompleted    [1mduration=6.3s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=wait[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=registry.run.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [93mwait.#up[0].from | [0m[2m#11 DONE 2.2s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#10 Exec ["apk", "add", "-U", "--no-cache", "openssh-client"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#10 sha256:129f7a800fcafce9892af5ec39933204363c520ddd490501a24cf2b7ef507c4e[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 0.211 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/main/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 0.579 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 1.440 (1/3) Installing openssh-keygen (8.4_p1-r4)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 1.527 (2/3) Installing libedit (20191231.3.1-r1)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 1.577 (3/3) Installing openssh-client (8.4_p1-r4)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 2.057 Executing busybox-1.32.1-r6.trigger[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#10 2.075 OK: 12 MiB in 21 packages[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#10 DONE 2.2s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.2s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 Exec ["apk", "add", "-U", "--no-cache", "docker-cli"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 sha256:baedb657a1b9132dae6ec7ad2199e2dbc8d4207e39b98fe1d0cdfb331690424a[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=image.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mimage.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=local pipeline=image.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mimage.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mimage.#up[1].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=image.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [92mimage.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#16 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 Copy / /var/www/html[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 sha256:98e6d6585fc9a93252a1db1ea00c35872b32acd49e38480d067a767974b5ab66[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 DONE 0.1s[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mimage | [0mcompleted    [1mduration=1.3s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mdependency detected[0m    [1mdependency=image[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mpush.source | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.source[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.source.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 Exec ["apk", "add", "-U", "--no-cache", "docker-cli"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 sha256:baedb657a1b9132dae6ec7ad2199e2dbc8d4207e39b98fe1d0cdfb331690424a[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 0.201 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/main/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=push.source[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mpush.source.#up[1].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.source.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.source.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.source.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[0].from | [0m[2m#16 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[0].from | [0m[2m#13 load metadata for docker.io/library/php:8.0-apache[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[0].from | [0m[2m#13 sha256:ab7adc4d2fc7c97263198b92632b3a356a3c9d8045d5de87d36307f70bea7db1[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[0].from | [0m[2m#13 DONE 0.2s[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=push.source.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mpush.source.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=local pipeline=push.source.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mpush.source.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:45PM[0m [32mINF[0m [32mpush.source.#up[1].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mpush.source | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.source.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [95mpush.source.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mpush.source | [0mcompleted    [1mduration=400ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:45PM[0m [33mDBG[0m [32mpush.source.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.2s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 Exec ["apk", "add", "-U", "--no-cache", "docker-cli"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 sha256:baedb657a1b9132dae6ec7ad2199e2dbc8d4207e39b98fe1d0cdfb331690424a[0m[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 0.502 fetch https://dl-cdn.alpinelinux.org/alpine/v3.13/community/x86_64/APKINDEX.tar.gz[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 0.970 (1/2) Installing ca-certificates (20191127-r5)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 1.031 (2/2) Installing docker-cli (20.10.3-r1)[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 4.400 Executing busybox-1.32.1-r6.trigger[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 4.413 Executing ca-certificates-20191127-r5.trigger[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0m#16 4.518 OK: 64 MiB in 23 packages[0m
+[90m10:45PM[0m [32mINF[0m [94mregistry.run.#up[0].from | [0mcompleted    [1mduration=11s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=write-file pipeline=registry.run[0m[0m
+[90m10:45PM[0m [33mDBG[0m [94mregistry.run.#up[0].from | [0m[2m#16 DONE 4.7s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2m#15 Exec ["/bin/bash", "-c", "# (f: str -> int)\nnb_retries=$(($NB_RETRIES+0))\nstarting_period=$(($START_PERIOD+0))\n\nstatus=\"0\"\nSECONDS=0\n# START_PERIOD implementation\nwhile [ $SECONDS -lt $starting_period ]; do\n\tstatus=\"$(curl --connect-timeout 1 -s -o /dev/null -w ''%{http_code}'' $HEALTH_URL)\"\n\tif [ \"$status\" == \"200\" ]; then\n\t\texit 0;\n\tfi\n\tsleep 1;\ndone\n\n# TIMEOUT, INTERVAL, INTERVAL implementation\nfor ((i=0;i<NB_RETRIES;i++)); do\n\tstatus=\"$(curl --connect-timeout $TIMEOUT -s -o /dev/null -w ''%{http_code}'' $HEALTH_URL)\"\n\tif [ \"$status\" == \"200\" ]; then\n\t\texit 0;\n\tfi\n\tsleep \"$INTERVAL\";\ndone\n\nexit 1;"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2m#15 sha256:f8a566cc7f83541f8a063f4b10b0fadde6e56967aff537068c8589044865b156[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=write-file pipeline=registry.run[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#15 ...[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#18 WriteFile /setup.sh[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#18 sha256:8a5eed0898c962ef3a29e16d5053aa2341f8e733b2e7e60d3b9b8ad1a8a03f64[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#18 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#19 WriteFile /entrypoint.sh[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#19 sha256:a927d24905af739a64c4c35ccc600e78358e185c151d91ceb97ce22e0e5f78cc[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#19 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=registry.run[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#20 Exec ["/bin/bash", "--noprofile", "--norc", "-eo", "pipefail", "/setup.sh"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#20 sha256:8889c558d8192cfcca90262f2f43c98371adc689366cdf499d3d41eb2093bd43[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mregistry.run | [0m#20 0.171 Error: No such object: registry-local[0m
+[90m10:45PM[0m [32mINF[0m [36mregistry.run | [0m#20 0.265 de930ac91a236b65f08462b543fe3503a05fdfc4552815278f6d9cbaf5f29632[0m
+[90m10:45PM[0m [32mINF[0m [36mregistry.run | [0mcompleted    [1mduration=11.9s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mregistry.run | [0m[2m#20 DONE 0.7s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2m#15 Exec ["/bin/bash", "-c", "# (f: str -> int)\nnb_retries=$(($NB_RETRIES+0))\nstarting_period=$(($START_PERIOD+0))\n\nstatus=\"0\"\nSECONDS=0\n# START_PERIOD implementation\nwhile [ $SECONDS -lt $starting_period ]; do\n\tstatus=\"$(curl --connect-timeout 1 -s -o /dev/null -w ''%{http_code}'' $HEALTH_URL)\"\n\tif [ \"$status\" == \"200\" ]; then\n\t\texit 0;\n\tfi\n\tsleep 1;\ndone\n\n# TIMEOUT, INTERVAL, INTERVAL implementation\nfor ((i=0;i<NB_RETRIES;i++)); do\n\tstatus=\"$(curl --connect-timeout $TIMEOUT -s -o /dev/null -w ''%{http_code}'' $HEALTH_URL)\"\n\tif [ \"$status\" == \"200\" ]; then\n\t\texit 0;\n\tfi\n\tsleep \"$INTERVAL\";\ndone\n\nexit 1;"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2m#15 sha256:f8a566cc7f83541f8a063f4b10b0fadde6e56967aff537068c8589044865b156[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mwait | [0m[2m#15 DONE 30.2s[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mwait | [0mcompleted    [1mduration=36.5s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mdependency detected[0m    [1mdependency=push.source[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mdependency detected[0m    [1mdependency=wait[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mpush.push | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.push[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.push.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mpush.push.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.push.#up[0].from.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mpush.push.#up[0].from.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mpush.push.#up[0].from.#up[0].from | [0m[2m#13 load metadata for docker.io/library/php:8.0-apache[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mpush.push.#up[0].from.#up[0].from | [0m[2m#13 sha256:ab7adc4d2fc7c97263198b92632b3a356a3c9d8045d5de87d36307f70bea7db1[0m[0m
+[90m10:45PM[0m [33mDBG[0m [96mpush.push.#up[0].from.#up[0].from | [0m[2m#13 DONE 0.4s[0m[0m
+[90m10:45PM[0m [32mINF[0m [96mpush.push.#up[0].from.#up[0].from | [0mcompleted    [1mduration=400ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=push.push.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from.#up[1].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.push.#up[0].from.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mpush.push.#up[0].from.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.push.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.1s[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=100ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=push.push.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=local pipeline=push.push.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:45PM[0m [32mINF[0m [34mpush.push.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:45PM[0m [32mINF[0m [36mpush.push.#up[0].from.#up[1].from.#up[0].from | [0mcompleted    [1mduration=100ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.push.#up[0].from.#up[1].from[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mpush.push.#up[0].from | [0mcompleted    [1mduration=600ms[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=push-container pipeline=push.push[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 Local /home/jyg/workspace/divers/docker-php/www[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 sha256:2e262e2e1c74ad11e40e4c8896a0bda06031ce7e40e53975c7bfa4963341d66a[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 transferring /home/jyg/workspace/divers/docker-php/www: 1.30kB done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 Local /home/jyg/workspace/divers/docker-php/www [copy][0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 sha256:94315873d154092e486f29cb781336d5f9d8b6e8a68d7cf069b0638cda2e1ae1[0m[0m
+[90m10:45PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 FetchContainer docker.io/composer:2[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 sha256:fbda0b9f0d6870b3bb457ed91928b2877f2bb4af76bc1f668ecdb5b489db90ef[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 resolve docker.io/library/composer:2 0.2s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 Exec ["/bin/sh", "-c", "composer install --ignore-platform-reqs --no-scripts"][0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 sha256:1dc96365b094ee0b80c5c8160ced5dd916c00b2c8b7cf29d59bf58f46a5c62cf[0m[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.469 Installing dependencies from lock file (including require-dev)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.471 Verifying lock file contents can be installed on current platform.[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.487 Package operations: 28 installs, 0 updates, 0 removals[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.488   - Downloading symfony/flex (v1.5.3)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.489   - Downloading psr/cache (1.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading symfony/cache-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading psr/container (1.0.0)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/service-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-php73 (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-mbstring (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/console (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/dotenv (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading psr/event-dispatcher (1.0.0)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading symfony/event-dispatcher-contracts (v2.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/routing (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/polyfill-intl-idn (v1.13.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/mime (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/http-foundation (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/event-dispatcher (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/var-dumper (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading psr/log (1.1.2)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/error-handler (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/http-kernel (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/finder (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/filesystem (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/dependency-injection (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/config (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/var-exporter (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/cache (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/framework-bundle (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/yaml (v5.0.1)[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.525   0/28 [>---------------------------]   0%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.141   5/28 [=====>----------------------]  17%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.243   9/28 [=========>------------------]  32%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.362  12/28 [============>---------------]  42%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.464  14/28 [==============>-------------]  50%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.569  18/28 [==================>---------]  64%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.682  19/28 [===================>--------]  67%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.783  21/28 [=====================>------]  75%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.886  25/28 [=========================>--]  89%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.995  27/28 [===========================>]  96%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.073  28/28 [============================] 100%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.075   - Installing symfony/flex (v1.5.3): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.147 The "symfony/flex" plugin was skipped because it requires a Plugin API version ("^1.0") that does not match your Composer installation ("2.1.0"). You may need to run composer update with the "--no-plugins" option.[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.152   - Installing psr/cache (1.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.156   - Installing symfony/cache-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.162   - Installing psr/container (1.0.0): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.164   - Installing symfony/service-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.167   - Installing symfony/polyfill-php73 (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.172   - Installing symfony/polyfill-mbstring (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.180   - Installing symfony/console (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.183   - Installing symfony/dotenv (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.186   - Installing psr/event-dispatcher (1.0.0): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.203   - Installing symfony/event-dispatcher-contracts (v2.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.211   - Installing symfony/routing (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.212   - Installing symfony/polyfill-intl-idn (v1.13.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.213   - Installing symfony/mime (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.216   - Installing symfony/http-foundation (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.217   - Installing symfony/event-dispatcher (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.220   - Installing symfony/var-dumper (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing psr/log (1.1.2): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing symfony/error-handler (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.222   - Installing symfony/http-kernel (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/finder (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/filesystem (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/dependency-injection (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/config (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.225   - Installing symfony/var-exporter (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.226   - Installing symfony/cache (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/framework-bundle (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/yaml (v5.0.1): Extracting archive[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.249   0/27 [>---------------------------]   0%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.446  17/27 [=================>----------]  62%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.555  23/27 [=======================>----]  85%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.572  27/27 [============================] 100%[0m
+[90m10:45PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.721 Generating autoload files[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 DONE 2.9s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 Subdir /app[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 sha256:a5baffea27f1ced0e556bbc1136fdda6f20edce1581545021be75c54fe17c601[0m[0m
+[90m10:45PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 DONE 0.0s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 FetchContainer php:8.0-apache[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 sha256:e643a03698f4348650505ab8461078e599eed47f700a29f0dc0768942b784979[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 resolve docker.io/library/php:8.0-apache 0.2s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 Copy / /var/www/html[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 sha256:98e6d6585fc9a93252a1db1ea00c35872b32acd49e38480d067a767974b5ab66[0m[0m
+[90m10:45PM[0m [33mDBG[0m [36mimage | [0m[2m#17 DONE 0.1s[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting to image[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting layers[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting layers 0.8s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting manifest sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 0.0s done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting config sha256:5e642d5184f43c8b612cc4d4ef58ad7a5100fa405e7f1eae1fbdfd0e76807d78 done[0m[0m
+[90m10:45PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing layers[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing layers 1.3s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing manifest for localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 0.0s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 DONE 2.2s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#22 Mkdir /dagger[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#22 sha256:6968508fe5f0ad211a52928d1010e774f0ef197ff6d00ba23bc5f4618b1fa368[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#22 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#23 Storing image digest to /dagger/image_digest[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#23 sha256:1fc700a76e0e012cc72d516670f08e1e18124575283f5a1bc0275f689a54343b[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#23 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.push[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#24 Storing image ref to /dagger/image_ref[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#24 sha256:c715e02465f66ee5b1b50e5ed8dfdc0311776871879303819f33d5e267d86e44[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#24 DONE 0.0s[0m[0m
+[90m10:46PM[0m [32mINF[0m [34mpush.push | [0mcompleted    [1mduration=3.3s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mdependency detected[0m    [1mdependency=push.push[0m[0m
+[90m10:46PM[0m [32mINF[0m [93mpush.digest | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.digest[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mpush.digest.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.digest.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.digest.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.digest.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.digest.#up[0].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.digest.#up[0].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mdependency detected[0m    [1mdependency=push.push[0m[0m
+[90m10:46PM[0m [32mINF[0m [32mpush.ref | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.ref[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.ref.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.ref.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.ref.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mpush.ref.#up[0].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.ref.#up[0].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#25 Subdir /dagger[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#25 sha256:703c889cf9f6f2b64bb0d7571c760fff14ed2cbac7ed39197806cc6e3ce86b49[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mpush.push | [0m[2m#25 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mpush.ref.#up[0].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mpush.ref.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 load metadata for docker.io/library/php:8.0-apache[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mpush.ref.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 sha256:ab7adc4d2fc7c97263198b92632b3a356a3c9d8045d5de87d36307f70bea7db1[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mpush.ref.#up[0].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.digest.#up[0].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=push.ref.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mpush.ref.#up[0].from.#up[0].from.#up[1].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=push.digest.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mpush.digest.#up[0].from.#up[0].from.#up[1].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [94mpush.digest.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 DONE 0.2s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=local pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=local pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.digest.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.digest.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mpush.digest.#up[0].from.#up[0].from.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.ref.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.digest.#up[0].from.#up[0].from | [0mcompleted    [1mduration=300ms[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mpush.ref.#up[0].from.#up[0].from.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=push-container pipeline=push.digest.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mpush.ref.#up[0].from.#up[0].from | [0mcompleted    [1mduration=300ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=push-container pipeline=push.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mpush.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.2s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 Local /home/jyg/workspace/divers/docker-php/www[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 sha256:2e262e2e1c74ad11e40e4c8896a0bda06031ce7e40e53975c7bfa4963341d66a[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 transferring /home/jyg/workspace/divers/docker-php/www: 1.30kB done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 Local /home/jyg/workspace/divers/docker-php/www [copy][0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 sha256:94315873d154092e486f29cb781336d5f9d8b6e8a68d7cf069b0638cda2e1ae1[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 FetchContainer docker.io/composer:2[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 sha256:fbda0b9f0d6870b3bb457ed91928b2877f2bb4af76bc1f668ecdb5b489db90ef[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 resolve docker.io/library/composer:2 0.2s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 Exec ["/bin/sh", "-c", "composer install --ignore-platform-reqs --no-scripts"][0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 sha256:1dc96365b094ee0b80c5c8160ced5dd916c00b2c8b7cf29d59bf58f46a5c62cf[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.469 Installing dependencies from lock file (including require-dev)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.471 Verifying lock file contents can be installed on current platform.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.487 Package operations: 28 installs, 0 updates, 0 removals[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.488   - Downloading symfony/flex (v1.5.3)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.489   - Downloading psr/cache (1.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading symfony/cache-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading psr/container (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/service-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-php73 (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-mbstring (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/console (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/dotenv (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading psr/event-dispatcher (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading symfony/event-dispatcher-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/routing (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/polyfill-intl-idn (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/mime (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/http-foundation (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/event-dispatcher (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/var-dumper (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading psr/log (1.1.2)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/error-handler (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/http-kernel (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/finder (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/filesystem (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/dependency-injection (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/config (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/var-exporter (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/cache (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/framework-bundle (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/yaml (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.525   0/28 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.141   5/28 [=====>----------------------]  17%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.243   9/28 [=========>------------------]  32%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.362  12/28 [============>---------------]  42%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.464  14/28 [==============>-------------]  50%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.569  18/28 [==================>---------]  64%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.682  19/28 [===================>--------]  67%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.783  21/28 [=====================>------]  75%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.886  25/28 [=========================>--]  89%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.995  27/28 [===========================>]  96%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.073  28/28 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.075   - Installing symfony/flex (v1.5.3): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.147 The "symfony/flex" plugin was skipped because it requires a Plugin API version ("^1.0") that does not match your Composer installation ("2.1.0"). You may need to run composer update with the "--no-plugins" option.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.152   - Installing psr/cache (1.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.156   - Installing symfony/cache-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.162   - Installing psr/container (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.164   - Installing symfony/service-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.167   - Installing symfony/polyfill-php73 (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.172   - Installing symfony/polyfill-mbstring (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.180   - Installing symfony/console (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.183   - Installing symfony/dotenv (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.186   - Installing psr/event-dispatcher (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.203   - Installing symfony/event-dispatcher-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.211   - Installing symfony/routing (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.212   - Installing symfony/polyfill-intl-idn (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.213   - Installing symfony/mime (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.216   - Installing symfony/http-foundation (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.217   - Installing symfony/event-dispatcher (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.220   - Installing symfony/var-dumper (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing psr/log (1.1.2): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing symfony/error-handler (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.222   - Installing symfony/http-kernel (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/finder (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/filesystem (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/dependency-injection (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/config (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.225   - Installing symfony/var-exporter (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.226   - Installing symfony/cache (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/framework-bundle (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/yaml (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.249   0/27 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.446  17/27 [=================>----------]  62%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.555  23/27 [=======================>----]  85%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.572  27/27 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.721 Generating autoload files[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.469 Installing dependencies from lock file (including require-dev)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.471 Verifying lock file contents can be installed on current platform.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.487 Package operations: 28 installs, 0 updates, 0 removals[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.488   - Downloading symfony/flex (v1.5.3)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.489   - Downloading psr/cache (1.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading symfony/cache-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading psr/container (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/service-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-php73 (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-mbstring (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/console (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/dotenv (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading psr/event-dispatcher (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading symfony/event-dispatcher-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/routing (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/polyfill-intl-idn (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/mime (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/http-foundation (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/event-dispatcher (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/var-dumper (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading psr/log (1.1.2)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/error-handler (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/http-kernel (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/finder (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/filesystem (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/dependency-injection (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/config (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/var-exporter (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/cache (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/framework-bundle (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/yaml (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.525   0/28 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.141   5/28 [=====>----------------------]  17%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.243   9/28 [=========>------------------]  32%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.362  12/28 [============>---------------]  42%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.464  14/28 [==============>-------------]  50%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.569  18/28 [==================>---------]  64%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.682  19/28 [===================>--------]  67%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.783  21/28 [=====================>------]  75%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.886  25/28 [=========================>--]  89%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.995  27/28 [===========================>]  96%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.073  28/28 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.075   - Installing symfony/flex (v1.5.3): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.147 The "symfony/flex" plugin was skipped because it requires a Plugin API version ("^1.0") that does not match your Composer installation ("2.1.0"). You may need to run composer update with the "--no-plugins" option.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.152   - Installing psr/cache (1.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.156   - Installing symfony/cache-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.162   - Installing psr/container (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.164   - Installing symfony/service-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.167   - Installing symfony/polyfill-php73 (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.172   - Installing symfony/polyfill-mbstring (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.180   - Installing symfony/console (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.183   - Installing symfony/dotenv (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.186   - Installing psr/event-dispatcher (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.203   - Installing symfony/event-dispatcher-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.211   - Installing symfony/routing (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.212   - Installing symfony/polyfill-intl-idn (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.213   - Installing symfony/mime (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.216   - Installing symfony/http-foundation (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.217   - Installing symfony/event-dispatcher (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.220   - Installing symfony/var-dumper (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing psr/log (1.1.2): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing symfony/error-handler (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.222   - Installing symfony/http-kernel (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/finder (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/filesystem (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/dependency-injection (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/config (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.225   - Installing symfony/var-exporter (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.226   - Installing symfony/cache (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/framework-bundle (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/yaml (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.249   0/27 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.446  17/27 [=================>----------]  62%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.555  23/27 [=======================>----]  85%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.572  27/27 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.721 Generating autoload files[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 DONE 2.9s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 Subdir /app[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 sha256:a5baffea27f1ced0e556bbc1136fdda6f20edce1581545021be75c54fe17c601[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 FetchContainer php:8.0-apache[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 sha256:e643a03698f4348650505ab8461078e599eed47f700a29f0dc0768942b784979[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 resolve docker.io/library/php:8.0-apache 0.2s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 Copy / /var/www/html[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 sha256:98e6d6585fc9a93252a1db1ea00c35872b32acd49e38480d067a767974b5ab66[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting to image[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting layers done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting manifest sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting config sha256:5e642d5184f43c8b612cc4d4ef58ad7a5100fa405e7f1eae1fbdfd0e76807d78 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing layers 0.1s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.digest.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mpush.digest.#up[0].from | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexecuting operation[0m    [1mdo=export pipeline=push.digest[0m[0m
+[90m10:46PM[0m [33mDBG[0m [93mpush.digest | [0m[2mexporting string[0m    [1mcontents=sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71[0m[0m
+[90m10:46PM[0m [32mINF[0m [93mpush.digest | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=push.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mpush.ref.#up[0].from | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexecuting operation[0m    [1mdo=export pipeline=push.ref[0m[0m
+[90m10:46PM[0m [33mDBG[0m [32mpush.ref | [0m[2mexporting string[0m    [1mcontents=localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71[0m[0m
+[90m10:46PM[0m [32mINF[0m [32mpush.ref | [0mcompleted    [1mduration=600ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing layers 0.1s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing manifest for localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mdependency detected[0m    [1mdependency=push.ref[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mrun.ref | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.ref[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.ref.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [93mrun.ref.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.ref.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=run.ref.#up[0].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 load metadata for docker.io/library/php:8.0-apache[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 sha256:ab7adc4d2fc7c97263198b92632b3a356a3c9d8045d5de87d36307f70bea7db1[0m[0m
+[90m10:46PM[0m [32mINF[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=copy pipeline=run.ref.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.ref.#up[0].from.#up[0].from.#up[0].from | [0m[2m#13 DONE 0.2s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 load metadata for docker.io/library/composer:2[0m[0m
+[90m10:46PM[0m [33mDBG[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 sha256:03dd3fd1b0a27ca2607fb7e5923a6b77ecd72c89ea87a08eb031fe5e893aa670[0m[0m
+[90m10:46PM[0m [32mINF[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=local pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from[0m[0m
+[90m10:46PM[0m [32mINF[0m [92mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[1].mount."/app".from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:46PM[0m [32mINF[0m [94mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=run.ref.#up[0].from.#up[0].from.#up[1].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from | [0mcompleted    [1mduration=200ms[0m[0m
+[90m10:46PM[0m [32mINF[0m [93mrun.ref.#up[0].from.#up[0].from | [0mcompleted    [1mduration=300ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=push-container pipeline=run.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [96mrun.ref.#up[0].from.#up[0].from.#up[1].from.#up[0].from.#up[0].from | [0m[2m#4 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 Local /home/jyg/workspace/divers/docker-php/www[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 sha256:2e262e2e1c74ad11e40e4c8896a0bda06031ce7e40e53975c7bfa4963341d66a[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 transferring /home/jyg/workspace/divers/docker-php/www: 1.30kB done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#2 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 Local /home/jyg/workspace/divers/docker-php/www [copy][0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 sha256:94315873d154092e486f29cb781336d5f9d8b6e8a68d7cf069b0638cda2e1ae1[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mapp.source | [0m[2m#3 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 FetchContainer docker.io/composer:2[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 sha256:fbda0b9f0d6870b3bb457ed91928b2877f2bb4af76bc1f668ecdb5b489db90ef[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 resolve docker.io/library/composer:2 0.2s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mapp.ctr.#up[0].from | [0m[2m#6 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 Exec ["/bin/sh", "-c", "composer install --ignore-platform-reqs --no-scripts"][0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 sha256:1dc96365b094ee0b80c5c8160ced5dd916c00b2c8b7cf29d59bf58f46a5c62cf[0m[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.469 Installing dependencies from lock file (including require-dev)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.471 Verifying lock file contents can be installed on current platform.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.487 Package operations: 28 installs, 0 updates, 0 removals[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.488   - Downloading symfony/flex (v1.5.3)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.489   - Downloading psr/cache (1.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading symfony/cache-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.490   - Downloading psr/container (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/service-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-php73 (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.491   - Downloading symfony/polyfill-mbstring (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/console (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.492   - Downloading symfony/dotenv (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading psr/event-dispatcher (1.0.0)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.493   - Downloading symfony/event-dispatcher-contracts (v2.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/routing (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/polyfill-intl-idn (v1.13.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.494   - Downloading symfony/mime (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/http-foundation (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/event-dispatcher (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading symfony/var-dumper (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.495   - Downloading psr/log (1.1.2)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/error-handler (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/http-kernel (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/finder (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.496   - Downloading symfony/filesystem (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/dependency-injection (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/config (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/var-exporter (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.497   - Downloading symfony/cache (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/framework-bundle (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.498   - Downloading symfony/yaml (v5.0.1)[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 0.525   0/28 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.141   5/28 [=====>----------------------]  17%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.243   9/28 [=========>------------------]  32%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.362  12/28 [============>---------------]  42%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.464  14/28 [==============>-------------]  50%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.569  18/28 [==================>---------]  64%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.682  19/28 [===================>--------]  67%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.783  21/28 [=====================>------]  75%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.886  25/28 [=========================>--]  89%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 1.995  27/28 [===========================>]  96%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.073  28/28 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.075   - Installing symfony/flex (v1.5.3): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.147 The "symfony/flex" plugin was skipped because it requires a Plugin API version ("^1.0") that does not match your Composer installation ("2.1.0"). You may need to run composer update with the "--no-plugins" option.[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.152   - Installing psr/cache (1.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.156   - Installing symfony/cache-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.162   - Installing psr/container (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.164   - Installing symfony/service-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.167   - Installing symfony/polyfill-php73 (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.172   - Installing symfony/polyfill-mbstring (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.180   - Installing symfony/console (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.183   - Installing symfony/dotenv (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.186   - Installing psr/event-dispatcher (1.0.0): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.203   - Installing symfony/event-dispatcher-contracts (v2.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.211   - Installing symfony/routing (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.212   - Installing symfony/polyfill-intl-idn (v1.13.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.213   - Installing symfony/mime (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.216   - Installing symfony/http-foundation (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.217   - Installing symfony/event-dispatcher (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.220   - Installing symfony/var-dumper (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing psr/log (1.1.2): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.221   - Installing symfony/error-handler (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.222   - Installing symfony/http-kernel (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/finder (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.223   - Installing symfony/filesystem (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/dependency-injection (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.224   - Installing symfony/config (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.225   - Installing symfony/var-exporter (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.226   - Installing symfony/cache (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/framework-bundle (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.227   - Installing symfony/yaml (v5.0.1): Extracting archive[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.249   0/27 [>---------------------------]   0%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.329   9/27 [=========>------------------]  33%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.446  17/27 [=================>----------]  62%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.555  23/27 [=======================>----]  85%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.572  27/27 [============================] 100%[0m
+[90m10:46PM[0m [32mINF[0m [35mapp.ctr | [0m#9 2.721 Generating autoload files[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.ctr | [0m[2m#9 DONE 2.9s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 Subdir /app[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 sha256:a5baffea27f1ced0e556bbc1136fdda6f20edce1581545021be75c54fe17c601[0m[0m
+[90m10:46PM[0m [33mDBG[0m [35mapp.output | [0m[2m#12 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 FetchContainer php:8.0-apache[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 sha256:e643a03698f4348650505ab8461078e599eed47f700a29f0dc0768942b784979[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 resolve docker.io/library/php:8.0-apache 0.2s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mimage.#up[0].from | [0m[2m#14 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 Copy / /var/www/html[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 sha256:98e6d6585fc9a93252a1db1ea00c35872b32acd49e38480d067a767974b5ab66[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mimage | [0m[2m#17 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=subdir pipeline=run.ref.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.ref.#up[0].from | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexecuting operation[0m    [1mdo=export pipeline=run.ref[0m[0m
+[90m10:46PM[0m [33mDBG[0m [36mrun.ref | [0m[2mexporting string[0m    [1mcontents=localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71[0m[0m
+[90m10:46PM[0m [32mINF[0m [36mrun.ref | [0mcompleted    [1mduration=500ms[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mdependency detected[0m    [1mdependency=run.ref[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=load pipeline=run.run[0m[0m
+[90m10:46PM[0m [32mINF[0m [34mrun.run.#up[0].from | [0mcomputing[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=fetch-container pipeline=run.run.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting to image[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting layers done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting manifest sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 exporting config sha256:5e642d5184f43c8b612cc4d4ef58ad7a5100fa405e7f1eae1fbdfd0e76807d78 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing layers 0.0s done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 pushing manifest for localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71 done[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95msystem | [0m[2m#21 DONE 0.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.run.#up[0].from | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.run.#up[0].from | [0m[2m#1 load metadata for docker.io/library/alpine:3.13.5@sha256:69e70a79f2d41ab5d637de98c1e0b055206ba40a8145e7bddb55ccc04e13cf8f[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.run.#up[0].from | [0m[2m#1 sha256:703a8efa84578e0eeea62f1e909b202dbdba4a14cbb81bc8ae20e916388aaa88[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=run.run.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=run.run.#up[0].from[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=run.run.#up[0].from[0m[0m
+[90m10:46PM[0m [32mINF[0m [34mrun.run.#up[0].from | [0mcompleted    [1mduration=0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=write-file pipeline=run.run[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=write-file pipeline=run.run[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2mexecuting operation[0m    [1mdo=exec pipeline=run.run[0m[0m
+[90m10:46PM[0m [33mDBG[0m [34mrun.run.#up[0].from | [0m[2m#1 DONE 0.0s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2m#26 Exec ["/bin/bash", "--noprofile", "--norc", "-eo", "pipefail", "/setup.sh"][0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2m#26 sha256:f158e421b016d436172309fcbc1386a885dc8a9a9fe746da525129f5ac317bb8[0m[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.205 Error: No such object: phpapp[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.276 Unable to find image 'localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71' locally[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.317 localhost:5042/phpapp@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71: Pulling from phpapp[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.317 e5ae68f74026: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.322 99c3c1c4d556: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.329 2c23b6beb07a: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.333 9874148cff9a: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.337 52defac98629: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.341 585eed6f5399: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.345 aa83ee0498ff: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.351 b24ad712729b: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.355 74881ffe54d8: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.359 848023a50f1f: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.363 4a709941d29b: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.367 4476f7dabac8:[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0mAlready exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.371 90ec3a33dcbd: Already exists[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.386 Digest: sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.388 Status: Downloaded newer image for localhost:5042/phpapp@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0m#26 0.448 26fb82070f5f629a35c7e4485b188be659cf22d11886f77ac29a98f5c4ba99e6[0m
+[90m10:46PM[0m [32mINF[0m [95mrun.run | [0mcompleted    [1mduration=1.1s[0m[0m
+[90m10:46PM[0m [33mDBG[0m [95mrun.run | [0m[2m#26 DONE 1.0s[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=app.output value={
+	from: {
+		image: {
+			from: "docker.io/composer:2"
+		}
+		setup: []
+		command: "composer install --ignore-platform-reqs --no-scripts"
+		env: {}
+		dir:    "/app"
+		always: *false | true
+		copy: {}
+		mount: {
+			"/app": {
+				from: {}
+			}
+		}
+		secret: {}
+		files: {}
+		cache: {}
+		tmpfs: {}
+		shell: {
+			path: *"/bin/sh" | string
+			args: *["-c"] | []
+		}
+	}
+	path: "/app"
+}[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=push.ref value="localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71"[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=push.digest value="sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71"[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=run.ref value="localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71"[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=run.run.env.IMAGE_REF value="localhost:5042/phpapp:latest@sha256:afe816811319e60a69ca0f0d654b92f1972d4921b562dfd30e1fa484d0d09c71"[0m[0m
+[90m10:46PM[0m [32mINF[0m [95msystem | [0moutput    [1mname=appURL value="http://localhost:8080/"[0m[0m
