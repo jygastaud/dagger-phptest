@@ -13,8 +13,8 @@
 * `dagger init`
 * `dagger mod get github.com/jygastaud/dagger@v0.1`
 
-## Current status ⚠️ not working ⚠️
+## Current status
 
 * Build go to the end
 * php image is store into the registry
-* the php image doesn't contain php builded source
+* the php image contains php builded source
